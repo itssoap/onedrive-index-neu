@@ -90,7 +90,7 @@ module.exports = {
   // [OPTIONAL] Show a notification at the bottom right of the screen on the main page.
   // This is useful for showing announcements or messages to users.
   notification: {
-    show: true,
+    show: false,
     // Set the message to show in the notification in the file components/Notification.tsx, add translations if needed in the locale files /public/locales
   },
 
