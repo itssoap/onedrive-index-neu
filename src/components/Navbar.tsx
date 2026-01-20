@@ -11,7 +11,7 @@ import { Fragment, useEffect, useState } from 'react'
 import { useTranslation } from 'next-i18next'
 
 import siteConfig from '../../config/site.config'
-import SearchModal from './SearchModal'
+// import SearchModal from './SearchModal'
 import SwitchLang from './SwitchLang'
 import useDeviceOS from '../utils/useDeviceOS'
 
@@ -61,7 +61,7 @@ const Navbar = () => {
     <div className="sticky top-0 z-[100] border-b border-gray-900/10 bg-white bg-opacity-80 backdrop-blur-md dark:border-gray-500/30 dark:bg-gray-900">
       <Toaster />
 
-      <SearchModal searchOpen={searchOpen} setSearchOpen={setSearchOpen} />
+      // <SearchModal searchOpen={searchOpen} setSearchOpen={setSearchOpen} />
 
       <div className="mx-auto flex w-full items-center justify-between space-x-4 px-4 py-1">
         <Link href="/" passHref className="flex items-center space-x-2 py-2 hover:opacity-80 dark:text-white md:p-2">
