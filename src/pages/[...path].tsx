@@ -24,7 +24,7 @@ export default function Folders() {
         <Navbar />
         <div className="mx-auto w-full max-w-5xl py-4 sm:p-4">
           <nav className="mb-4 flex items-center justify-between space-x-3 px-4 sm:px-0 sm:pl-1">
-            <Breadcrumb query={query} />
+            <Breadcrumb />
             <SwitchLayout />
           </nav>
           <TopBanner />
